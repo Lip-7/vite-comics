@@ -2,7 +2,7 @@
     <header class="bg-white mt-4">
         <div class="container d-flex justify-content-between">
             <div class="logo d-flex align-items-center">
-                <img src="../assets/img/dc-logo.png" alt="">
+                <a href="#"><img src="../assets/img/dc-logo.png" alt=""></a>
             </div>
             <ul class="d-flex justify-content-between gap-2">
                 <li class="text-uppercase"><a href="#">Characters</a></li>
