@@ -6,7 +6,7 @@
             </div>
             <ul class="d-flex justify-content-between gap-2">
                 <li class="text-uppercase"><a href="#">Characters</a></li>
-                <li class="text-uppercase"><a href="#">Comics</a></li>
+                <li class="text-uppercase active"><a href="#">Comics</a></li>
                 <li class="text-uppercase"><a href="#">Movies</a></li>
                 <li class="text-uppercase"><a href="#">Tv</a></li>
                 <li class="text-uppercase"><a href="#">Games</a></li>
@@ -46,8 +46,12 @@ header {
             color: black;
             border-bottom: 3px solid transparent;
             cursor: pointer;
-            &:hover{
+            &.active{
                 border-bottom: 3px solid #0C7CEC;
+                color: #0C7CEC;
+            }
+            &.active a{
+                color: #0C7CEC;
             }
             &:hover a{
                 color: #0C7CEC;
