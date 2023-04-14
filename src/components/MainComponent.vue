@@ -9,6 +9,11 @@
             <div class="cardsContainer d-flex flex-wrap justify-content-center gap-4">
                 <CardComponent :thumb="com.thumb" :price="com.price" :series="com.series" :type="com.type" v-for="com in comicsArray"/>
             </div>
+            <div class="loadMoreButtonWrapper justify-content-center d-flex mt-4">
+                <div class="loadMoreButton p-2 px-5">
+                    <h5 class="text-capitalize mb-0">Load more</h5>
+                </div>
+            </div>
         </div>
         <BannersComponent/>
     </main>
@@ -41,6 +46,12 @@ main{
         background-color: $logoColor;
         width: fit-content;
         transform: translateY(-55px);
+    }
+    .loadMoreButtonWrapper{
+        .loadMoreButton{
+            cursor: pointer;
+            background-color: $logoColor;
+        }
     }
 }
 </style>
