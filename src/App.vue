@@ -1,7 +1,7 @@
 <template>
   <HeaderComponent/>
   <MainComponent/>
-  <LinkssComponent/>
+  <LinkssComponentVue/>
   <FooterComponent></FooterComponent>
 </template>
 
