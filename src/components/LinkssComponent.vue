@@ -104,7 +104,7 @@
 
 <script>
 export default {
-    name: 'LinksComponent',
+    name: 'LinkssComponent',
 
 }
 </script>
