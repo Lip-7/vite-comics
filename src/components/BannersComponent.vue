@@ -51,8 +51,8 @@ main {
                 width: 3rem;
                 height: 3rem;
                 img{
-                    width: 3.2rem;
-                    height: 3.2rem;
+                    width: 100%;
+                    height: 100%;
                     object-fit: contain;
                 }
             }
