@@ -16,6 +16,11 @@ export default {
     MainComponent,
     FooterComponent,
     LinkssComponentVue
+  },
+  data() {
+    return {
+      
+    }
   }
 }
 </script>
